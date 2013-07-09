@@ -1,0 +1,19 @@
+<?php
+
+// Pick date entered in Single date range and populate the 
+// multiple date range container with that date , as in 
+// change start date and end date to the single date entry
+
+drupal_add_js(drupal_get_path('module','choose_single_day').'/single_day.js');
+
+function choose_single_day_node_view($node, $view_mode, $langcode)
+{
+	//kpr($node);
+}
+
+function choose_singe_day_form_alter_node_presave($node)
+{
+}
+
+
+//function choose_single_day_form_set_value();

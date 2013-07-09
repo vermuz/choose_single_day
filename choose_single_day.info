@@ -1,0 +1,4 @@
+name = Single Day Entry
+description = If you click on the single day checkbox it hides the multiple entry
+package = Custom Modules
+core = 7.x

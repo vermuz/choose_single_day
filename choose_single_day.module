@@ -14,6 +14,3 @@ function choose_single_day_node_view($node, $view_mode, $langcode)
 function choose_singe_day_form_alter_node_presave($node)
 {
 }
-
-
-//function choose_single_day_form_set_value();
